@@ -167,3 +167,20 @@ async def get_analysis_cost(analysis_id: str):
         "total_cost_usd": state.total_cost_usd,
         "node_costs": {nid: node.token_cost for nid, node in state.dag.nodes.items()}
     }
+
+@router.get("/analyses/{analysis_id}/export/markdown")
+async def export_markdown_report(analysis_id: str):
+    from backend.app.services.report_exporter import ReportExporterService
+    state = AnalysisRunnerService.get_analysis(analysis_id)
+    if not state:
+        raise HTTPException(status_code=404, detail="Analysis run not found")
+    markdown_content = ReportExporterService.export_markdown_report(state)
+    return {"analysis_id": analysis_id, "markdown": markdown_content}
+
+@router.get("/analyses/{analysis_id}/export/audit")
+async def export_audit_json(analysis_id: str):
+    from backend.app.services.report_exporter import ReportExporterService
+    state = AnalysisRunnerService.get_analysis(analysis_id)
+    if not state:
+        raise HTTPException(status_code=404, detail="Analysis run not found")
+    return ReportExporterService.export_audit_json(state)
