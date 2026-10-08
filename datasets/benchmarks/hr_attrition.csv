@@ -1,0 +1,9 @@
+employee_id,department,tenure_years,satisfaction_score,monthly_salary,overtime_hours,left_company
+EMP001,Engineering,4.5,3.2,8500,25,0
+EMP002,Sales,1.2,1.8,4200,45,1
+EMP003,Engineering,6.0,4.5,11000,10,0
+EMP004,Marketing,0.8,2.1,3800,38,1
+EMP005,Sales,2.5,2.4,5000,40,1
+EMP006,Engineering,5.2,4.1,10200,12,0
+EMP007,HR,3.0,3.8,5500,15,0
+EMP008,Sales,0.5,1.5,4000,50,1

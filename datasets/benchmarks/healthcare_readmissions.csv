@@ -1,0 +1,11 @@
+patient_id,admission_date,diagnosis,length_of_stay_days,num_prior_admissions,readmitted_30d
+P001,2023-01-05,Cardiology,4,2,1
+P002,2023-01-08,Orthopedics,2,0,0
+P003,2023-01-12,Pulmonology,7,4,1
+P004,2023-01-15,Neurology,3,1,0
+P005,2023-02-01,Cardiology,5,3,1
+P006,2023-02-14,Orthopedics,1,0,0
+P007,2023-02-20,Gastroenterology,6,2,1
+P008,2023-03-01,Neurology,2,0,0
+P009,2023-03-10,Cardiology,8,5,1
+P010,2023-03-25,Pulmonology,3,1,0
