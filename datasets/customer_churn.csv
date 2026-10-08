@@ -1,0 +1,16 @@
+customer_id,tenure_months,contract_type,monthly_charges,total_charges,support_tickets,contract_renewed,segment,churn
+CST01,3,Month-to-Month,85.5,256.5,5,0,SMB,1
+CST02,24,Two-Year,65.0,1560.0,1,1,Enterprise,0
+CST03,1,Month-to-Month,95.0,95.0,7,0,SMB,1
+CST04,36,One-Year,70.0,2520.0,2,1,Enterprise,0
+CST05,6,Month-to-Month,80.0,480.0,4,0,SMB,1
+CST06,48,Two-Year,110.0,5280.0,0,1,Enterprise,0
+CST07,2,Month-to-Month,90.0,180.0,6,0,SMB,1
+CST08,18,One-Year,60.0,1080.0,2,1,SMB,0
+CST09,5,Month-to-Month,100.0,500.0,5,0,SMB,1
+CST10,60,Two-Year,115.0,6900.0,1,1,Enterprise,0
+CST11,4,Month-to-Month,88.0,352.0,3,0,SMB,1
+CST12,12,One-Year,75.0,900.0,2,1,SMB,0
+CST13,8,Month-to-Month,92.0,736.0,4,0,SMB,1
+CST14,30,Two-Year,65.0,1950.0,1,1,Enterprise,0
+CST15,1,Month-to-Month,105.0,105.0,8,0,SMB,1

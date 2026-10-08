@@ -1,0 +1,16 @@
+transaction_id,date,customer_id,region,product_category,unit_price,quantity,discount_rate,revenue,customer_type
+TX1001,2023-01-05,C1001,North,Electronics,450.0,2,0.05,855.0,Enterprise
+TX1002,2023-01-08,C1002,South,Apparel,65.0,3,0.10,175.5,SMB
+TX1003,2023-01-12,C1003,East,Home Goods,120.0,1,0.00,120.0,SMB
+TX1004,2023-01-15,C1004,West,Electronics,990.0,1,0.15,841.5,Enterprise
+TX1005,2023-02-01,C1005,North,Apparel,45.0,4,0.05,171.0,SMB
+TX1006,2023-02-14,C1006,South,Electronics,350.0,1,0.20,280.0,SMB
+TX1007,2023-02-20,C1007,East,Apparel,80.0,2,0.00,160.0,Enterprise
+TX1008,2023-03-01,C1008,West,Home Goods,210.0,3,0.10,567.0,SMB
+TX1009,2023-03-10,C1009,North,Electronics,1200.0,1,0.05,1140.0,Enterprise
+TX1010,2023-03-25,C1010,South,Apparel,50.0,5,0.25,187.5,SMB
+TX1011,2023-04-02,C1001,North,Electronics,450.0,1,0.00,450.0,Enterprise
+TX1012,2023-04-15,C1002,South,Apparel,65.0,2,0.05,123.5,SMB
+TX1013,2023-05-01,C1004,West,Electronics,990.0,2,0.10,1782.0,Enterprise
+TX1014,2023-05-18,C1005,North,Home Goods,150.0,1,0.00,150.0,SMB
+TX1015,2023-06-01,C1008,West,Electronics,300.0,3,0.15,765.0,SMB

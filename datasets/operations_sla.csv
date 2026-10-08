@@ -1,0 +1,9 @@
+ticket_id,category,priority,created_at,resolved_at,cycle_time_hours,sla_hours,sla_breached,agent_id
+TCK801,Payment Issue,High,2023-10-01 09:00:00,2023-10-01 11:30:00,2.5,4.0,0,AG01
+TCK802,Account Lock,Medium,2023-10-01 10:15:00,2023-10-01 18:45:00,8.5,8.0,1,AG02
+TCK803,Refund Request,High,2023-10-01 11:00:00,2023-10-01 16:30:00,5.5,4.0,1,AG01
+TCK804,General Inquiry,Low,2023-10-01 13:00:00,2023-10-02 09:00:00,20.0,24.0,0,AG03
+TCK805,Technical Bug,Critical,2023-10-01 14:30:00,2023-10-01 16:00:00,1.5,2.0,0,AG04
+TCK806,Payment Issue,High,2023-10-02 08:30:00,2023-10-02 14:00:00,5.5,4.0,1,AG02
+TCK807,Refund Request,Medium,2023-10-02 09:15:00,2023-10-02 16:15:00,7.0,8.0,0,AG03
+TCK808,Account Lock,High,2023-10-02 10:00:00,2023-10-02 15:30:00,5.5,4.0,1,AG01
