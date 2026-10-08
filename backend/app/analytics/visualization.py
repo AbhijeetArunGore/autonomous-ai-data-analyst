@@ -1,5 +1,7 @@
 from pydantic import BaseModel
 from typing import List, Dict, Any, Optional
+import pandas as pd
+import numpy as np
 
 class ChartSpec(BaseModel):
     chart_id: str

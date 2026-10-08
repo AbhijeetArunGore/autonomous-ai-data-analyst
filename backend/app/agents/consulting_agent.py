@@ -1,4 +1,5 @@
 from typing import Optional, Any
+from backend.app.schemas.insight import InsightReport
 from backend.app.schemas.recommendation import RecommendationReport, BusinessRecommendation
 from backend.app.llm.provider import LLMProvider, get_llm_provider
 
